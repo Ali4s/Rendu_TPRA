@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TERA"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\usr\local\share\OpenCV\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/seymour/Documents/TERA/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/seymour/Documents/TERA/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/seymour/Documents/TERA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/seymour/Documents/TERA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/seymour/Documents/TERA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/seymour/Documents/TERA/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/seymour/Documents/TERA/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/seymour/Documents/TERA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/seymour/Documents/TERA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/seymour/Documents/TERA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/seymour/Documents/TERA/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/seymour/Documents/TERA/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/seymour/Documents/TERA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/seymour/Documents/TERA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/seymour/Documents/TERA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MJV-Projet">
+				<Option output="/home/seymour/Documents/TERA/cmake-build-debug/MJV-Projet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seymour/Documents/TERA/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_X11"/>
+					<Add option="-D_GLFW_HAS_XF86VM"/>
+					<Add directory="/home/seymour/Documents/TERA/extern"/>
+					<Add directory="/home/seymour/Documents/TERA/extern/png"/>
+					<Add directory="/home/seymour/Documents/TERA/extern/opencv"/>
+					<Add directory="/home/seymour/Documents/TERA/extern/opencv2"/>
+					<Add directory="/home/seymour/Documents/TERA/extern/opencv2/features2d"/>
+					<Add directory="/home/seymour/Documents/TERA/extern/glew/include"/>
+					<Add directory="/home/seymour/Documents/TERA/extern/glfw/deps"/>
+					<Add directory="/home/seymour/Documents/TERA/extern/glfw/include"/>
+					<Add directory="/home/seymour/Documents/TERA/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/seymour/Documents/TERA/cmake-build-debug/Makefile&quot;  VERBOSE=1 MJV-Projet"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/seymour/Documents/TERA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/seymour/Documents/TERA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/seymour/Documents/TERA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MJV-Projet/fast">
+				<Option output="/home/seymour/Documents/TERA/cmake-build-debug/MJV-Projet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seymour/Documents/TERA/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_X11"/>
+					<Add option="-D_GLFW_HAS_XF86VM"/>
+					<Add directory="/home/seymour/Documents/TERA/extern"/>
+					<Add directory="/home/seymour/Documents/TERA/extern/png"/>
+					<Add directory="/home/seymour/Documents/TERA/extern/opencv"/>
+					<Add directory="/home/seymour/Documents/TERA/extern/opencv2"/>
+					<Add directory="/home/seymour/Documents/TERA/extern/opencv2/features2d"/>
+					<Add directory="/home/seymour/Documents/TERA/extern/glew/include"/>
+					<Add directory="/home/seymour/Documents/TERA/extern/glfw/deps"/>
+					<Add directory="/home/seymour/Documents/TERA/extern/glfw/include"/>
+					<Add directory="/home/seymour/Documents/TERA/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/seymour/Documents/TERA/cmake-build-debug/Makefile&quot;  VERBOSE=1 MJV-Projet/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/seymour/Documents/TERA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/seymour/Documents/TERA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/seymour/Documents/TERA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/seymour/Documents/TERA/assets">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/glew/src/glew.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/glfw/src/context.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/glfw/src/egl_context.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/glfw/src/egl_context.h">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/glfw/src/glx_context.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/glfw/src/glx_context.h">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/glfw/src/init.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/glfw/src/input.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/glfw/src/linux_joystick.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/glfw/src/linux_joystick.h">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/glfw/src/monitor.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/glfw/src/posix_time.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/glfw/src/posix_time.h">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/glfw/src/posix_tls.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/glfw/src/posix_tls.h">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/glfw/src/vulkan.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/glfw/src/window.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/glfw/src/x11_init.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/glfw/src/x11_monitor.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/glfw/src/x11_window.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/glfw/src/xkb_unicode.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/glfw/src/xkb_unicode.h">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/png/adler32.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/png/compress.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/png/crc32.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/png/crc32.h">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/png/deflate.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/png/deflate.h">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/png/gzclose.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/png/gzlib.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/png/gzread.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/png/gzwrite.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/png/infback.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/png/inffast.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/png/inffast.h">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/png/inflate.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/png/inflate.h">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/png/inftrees.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/png/inftrees.h">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/png/png.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/png/png.h">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/png/pngerror.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/png/pngget.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/png/pngmem.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/png/pngpread.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/png/pngread.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/png/pngrio.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/png/pngrtran.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/png/pngrutil.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/png/pngset.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/png/pngtrans.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/png/pngwio.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/png/pngwrite.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/png/pngwtran.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/png/pngwutil.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/png/trees.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/png/trees.h">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/png/uncompr.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/png/zutil.c">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/extern/png/zutil.h">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/include/Calibration.hpp">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/include/Params.hpp">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/include/Settings.hpp">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/include/Vector.hpp">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/include/Vertex.hpp">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/include/Window.hpp">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/include/opencv.hpp">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/main.cpp">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/src/Calibration.cpp">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/src/Params.cpp">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/src/Window.cpp">
+			<Option target="MJV-Projet"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/seymour/Documents/TERA/../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
